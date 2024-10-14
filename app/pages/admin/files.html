@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <title>ENDLESS WAR</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!-- <meta name="csrf_token" content="XYeqduOaxNkWlInzZW9nKan4jMwF9I1yHkz8ZyQ6"> -->
+
+	<!-- <meta name="keywords" content="" /> -->
+	<meta name="description" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="ENDLESS WAR" />
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="" />
+
+    <link href="main.css" rel="stylesheet">
+    <script src="admin.js" defer></script>
+
+
+	</head>
+<body class="inner">
+	<app id="app" style="font-size: 20px;"></app>
+    <header>
+    <a href="/index" class="logo" hreflang="EN">
+        <img src="assets/new/images/logo-small.webp" alt="endless war" width="140" height="140">
+        <div class="logo-description">
+            <p class="logo-oficial">EndlessWar</p>
+            <p class="main-title">endless war</p>
+        </div>
+    </a>
+    <div class="language-login">
+        <div class="socials">
+            <a hreflang="EN" href="https://discord.com/" class="social-icon">
+                <img src="assets/new/images/svg/discord.svg" alt="discord" width="24" />
+            </a>
+            <a hreflang="EN" href="https://t.me/" class="social-icon">
+                <img src="assets/new/images/svg/telegram.svg" alt="telegram" width="24" />
+            </a>
+            <a hreflang="EN" href="https://www.youtube.com/@ewteasers1396" class="social-icon">
+                <img src="assets/new/images/svg/youtube.svg" alt="youtube" width="24" />
+            </a>
+            <a hreflang="EN" href="https://vk.com/" class="social-icon">
+                <img src="assets/new/images/svg/vk.svg" alt="vk" width="24" /></a>
+        </div>
+        <style>
+	.current_lang
+	{
+		right: -20px;
+		line-height: auto !important;
+	}
+	.current_lang::after
+	{
+		top: 31px !important;
+	}
+</style>
+	    </div>
+</header>
+<div class="menu-container">
+    <ul class="menu">
+        <li class="menu-item">
+            <a href="/admin" class="menu-link"><svg width="22" height="23" viewBox="0 0 22 23"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.1255 4.6894e-05C13.8012 1.70569 13.8215 4.43864 12.0376 5.28661C10.0993 6.20794 7.37497 5.02317 8.62156 1.77975C5.14503 3.89695 4.43872 7.40391 5.63769 10.7856C4.2177 9.68348 1.40197 7.62155 3.39355 5.28366C0.721673 5.81559 0.025017 8.0903 1.42184 9.52734C3.72941 11.9011 2.03216 15.1 0.107939 11.7173C-1.03778 17.4873 7.31347 18.7799 7.38964 22.5585H8.25823C7.86533 19.3388 5.32977 17.4886 2.60699 15.2241L4.02495 10.8457C4.03161 10.8956 4.03874 10.9432 4.04558 10.9922C3.9687 13.176 4.7488 16.9688 7.72377 16.7036C7.04736 16.3934 6.50094 15.9601 6.05675 15.4628C7.02884 15.2662 7.8672 12.4949 7.56988 8.13277L11.7008 6.6532C8.67922 8.70961 8.03914 12.1637 9.85222 13.8983L11.9485 9.02616L15.9562 7.97883C12.9152 9.91702 10.9943 12.4632 12.5343 14.7611L15.2472 10.9686L20.1793 11.7085C14.3073 12.7292 12.8104 16.4881 12.0406 19.9716C12.1862 20.7963 12.5431 21.6712 12.9913 22.5586H13.6315C11.4857 16.744 19.9375 16.3061 21.2427 12.7852C22.5001 9.39286 21.5881 7.65567 18.8052 5.39348C21.0663 9.06909 17.8738 10.8582 16.9991 9.41747C15.2132 6.4762 20.2892 2.26556 12.1255 0L12.1255 4.6894e-05Z"
+                        fill="#F6D6CB" />
+                </svg>
+                Sobre el juego</a>
+        </li>
+        <li class="menu-item">
+            <a href="/files" class="menu-link"><svg width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M16.1255 4L2.84118 7.40844L8.98876 10.2028L22.2623 6.70972L16.1255 4H16.1255ZM16.0497 4.9129L19.6495 6.50265L16.1606 7.42065L12.4454 5.83778L16.0497 4.9129ZM22.9173 7.43248L9.06013 11.0791L8.91312 11.1178H8.91302L8.91105 11.1182L8.77366 11.0557L1.84047 7.97448L1.83162 7.97006C1.56305 7.83575 1.44634 7.87427 1.31371 7.97535C1.18113 8.07633 1.0485 8.30619 1.01196 8.59838C0.93891 9.18279 1.18584 9.92465 2.16203 10.25L2.18184 10.2567L8.98674 13.281L17.3173 11.0888V9.6239L20.972 8.74173V10.127L23 9.59332C22.7903 8.91831 22.7437 8.19174 22.9173 7.43253V7.43248ZM20.1064 9.84102L18.1829 10.3054V15.2674L19.2383 14.2119L20.1064 14.8129V9.84102ZM22.9173 10.5101L20.972 11.0221V13.2045L23 12.6709C22.7903 11.9959 22.7437 11.2693 22.9173 10.5101ZM1.53703 10.9616C1.45033 10.9634 1.38425 10.9992 1.31381 11.0529C1.18118 11.1539 1.04855 11.3837 1.012 11.676C0.938958 12.2604 1.18589 13.0022 2.16208 13.3276L2.18189 13.3342L8.98674 16.3586L17.3173 14.1664V11.9838L8.91312 14.1954L1.86244 11.0619C1.78425 11.0351 1.70721 11.0051 1.63152 10.9718C1.60054 10.9647 1.56882 10.9612 1.53703 10.9616ZM1.86244 11.0619L1.8635 11.0623L1.85008 11.0563L1.86244 11.0619ZM22.9173 13.5878L20.972 14.0997V16.2822L23 15.7485C22.7903 15.0735 22.7437 14.347 22.9173 13.5878ZM1.53703 14.0393C1.45033 14.041 1.38425 14.0769 1.31381 14.1305C1.18118 14.2316 1.04855 14.4614 1.012 14.7536C0.938958 15.338 1.18589 16.0798 2.16208 16.4052L2.18189 16.4119L8.98674 19.4363L17.3173 17.244V15.0615L8.91312 17.273L1.86244 14.1396C1.78425 14.1128 1.70721 14.0827 1.63152 14.0495C1.60054 14.0423 1.56882 14.0389 1.53703 14.0393ZM1.86244 14.1396L1.8635 14.14L1.85008 14.1339L1.86244 14.1396ZM19.3395 15.3348L17.4706 17.2036L20.7807 16.3325L19.3395 15.3348H19.3395Z"
+                        fill="#F6D6CB" />
+                </svg>
+                Mejora tus items</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="menu-link"><svg width="24" height="24" viewBox="0 0 24 24"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M11.6409 2.78445C11.0194 2.80453 10.4015 2.87664 9.80513 3.00091V3.97576H11.6409V2.78445ZM12.3592 2.78445V3.97576H14.1949V3.00091C13.5985 2.8766 12.9806 2.80457 12.3592 2.78445ZM9.0868 3.17953C8.4281 3.37045 7.80711 3.62936 7.25108 3.95664V3.97576H9.0868V3.17953ZM14.9132 3.17953V3.97576H16.7489V3.95664C16.1929 3.62936 15.5719 3.37041 14.9132 3.17953ZM6.24263 4.69408C5.29249 5.55871 4.69704 6.71585 4.69704 8.16599V9.08385H6.53276V4.69408H6.24263ZM7.25108 4.69408V9.08385H9.0868V4.69408H7.25108ZM9.80513 4.69408V9.08385H11.6409V4.69408H9.80513ZM12.3592 4.69408V9.08385H14.1949V4.69408H12.3592ZM14.9132 4.69408V9.08385H16.7489V4.69408H14.9132ZM17.4673 4.69408V9.08385H19.303V8.16599C19.303 6.71585 18.7075 5.55871 17.7574 4.69408H17.4673ZM4.69704 9.80218V14.1919H6.53276V9.80218H4.69704ZM7.25108 9.80218V14.1919H9.0868V9.80218H7.25108ZM9.80513 9.80218V14.1919H11.6409V9.80218H9.80513ZM12.3592 9.80218V14.1919H14.1949V9.80218H12.3592ZM14.9132 9.80218V14.1919H16.7489V9.80218H14.9132ZM17.4673 9.80218V14.1919H19.303V9.80218H17.4673ZM4.69704 14.9103V19.3H6.53276V14.9103H4.69704ZM7.25108 14.9103V19.3H9.0868V14.9103H7.25108ZM9.80513 14.9103V19.3H11.6409V14.9103H9.80513ZM12.3592 14.9103V19.3H14.1949V14.9103H12.3592ZM14.9132 14.9103V19.3H16.7489V14.9103H14.9132ZM17.4673 14.9103V19.3H19.303V14.9103H17.4673ZM3.42001 20.0184V21.2156H20.58V20.0184H3.42001Z"
+                        fill="#F6D6CB" />
+                </svg>
+                celda</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="menu-link"><svg width="24"
+                    height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.45877 0.883301L7.34158 1.13525L2.35221 11.7056L2.30533 11.8037C1.15722 13.1259 0.668597 14.5499 0.73066 15.9376C0.795347 17.3838 1.43941 18.7683 2.43578 20.0068L2.5676 20.1709H4.89822C5.12402 19.9911 5.31682 19.8044 5.47971 19.607C5.56211 19.507 5.63814 19.4027 5.70822 19.295H2.99393C2.15894 18.2081 1.65677 17.0521 1.60521 15.8994C1.55257 14.7224 1.94913 13.5278 3.0085 12.3311H23.2527L23.0066 11.7276L18.7014 1.15729L18.5901 0.883395H7.45877V0.883301ZM8.01391 1.75925H16.3269L18.7951 3.70897L20.5954 8.12835L17.8371 11.4537H3.43924L8.01386 1.75925H8.01391ZM3.42452 13.2143C2.70686 14.104 2.44132 14.9852 2.48116 15.8599C2.52053 16.7223 2.8691 17.5919 3.4421 18.4131H6.12288C6.32875 17.7794 6.42025 17.014 6.44069 16.0489H5.68188V15.1729H6.44655V15.1641H11.8723V15.1728H12.6765V16.0488H11.8679C11.8544 16.8832 11.8001 17.6725 11.6804 18.4131H22.0691C21.6456 16.6847 21.642 14.944 22.0677 13.2144H3.42447L3.42452 13.2143ZM7.31514 16.04C7.27905 17.8071 7.01233 19.1257 6.15639 20.1636C5.47225 20.9932 4.45999 21.6048 3.00264 22.1704C3.40999 22.2481 3.80955 22.3216 4.24624 22.4165C4.90474 22.5596 5.55461 22.7136 6.07591 22.8501C6.33653 22.9183 6.56528 22.9826 6.74969 23.0405C6.84063 23.0691 6.9153 23.0908 6.98547 23.1167C8.63758 22.4856 9.60016 21.5746 10.1891 20.3642C10.749 19.2134 10.9526 17.7526 10.983 16.04H7.31505H7.31514ZM11.4987 19.295C11.4222 19.5961 11.3332 19.8888 11.2263 20.1709H23.2746V19.295H11.4987Z"
+                        fill="#F6D6CB" />
+                </svg>
+                Estrategias</a>
+        </li>
+        <li class="menu-item">
+            <a href="https://forum.endlesswar.online" class="menu-link"><svg width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M1.07239 1.54752L2.90866 5.46454L10.2236 12.9681L6.88268 16.1506L5.40669 16.2361L6.06087 16.9232L2.5988 20.3169L1.78416 20.7837L3.19677 22.2673L3.68092 21.4534L7.21293 18.1331L7.82462 18.7755L7.8944 17.2132L11.2311 14.0017L15.2526 18.1268L15.7109 19.1613L16.5763 18.442L19.798 21.7114L20.2701 22.4525L21.1712 21.6053L20.428 21.1192L17.2637 17.7958L18.0345 16.9771L16.9838 16.4994L13.0215 12.2785L13.1942 12.1123L16.8414 8.68376L17.1394 8.99672L17.6679 8.49983L17.8013 8.63987C19.1026 10.7045 16.6521 11.5117 15.7508 10.7997C15.7508 10.7997 18.5855 13.7418 21.2812 11.2076C23.977 8.6735 21.6871 5.88277 21.6871 5.88277C22.1196 7.59948 19.9843 9.10912 18.6294 7.86141L18.496 7.72136L18.9718 7.27416L18.6738 6.9612L20.3366 5.39803L22.9275 1.8202L19.3511 4.36296L17.6882 5.92613L17.4215 5.646L16.9458 6.0932L16.6791 5.8131C15.5003 4.39976 17.1355 2.36491 18.8367 2.88909C18.8367 2.88909 16.1591 0.462742 13.4634 2.99688C10.7676 5.53103 13.5671 8.50627 13.5671 8.50627C12.9015 7.57265 13.8484 5.1862 15.851 6.59156L16.1177 6.87166L15.5891 7.36855L15.8558 7.64868L12.2086 11.0772L12.0425 11.2355L4.88294 3.60862L1.07239 1.54752Z"
+                        fill="#F6D6CB" />
+                </svg>
+                Foro</a>
+        </li>
+        <li class="menu-item">
+            <a href="#" class="menu-link"><svg width="24" height="24"
+                    viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1.55802C11.9937 1.56833 11.9918 1.56753 11.9853 1.57897C11.8927 1.74116 11.7805 2.0128 11.6703 2.34523C11.4499 3.01006 11.2279 3.92352 11.034 4.84006C10.8401 5.75661 10.6727 6.67859 10.5541 7.37525C10.4948 7.72353 10.4477 8.01556 10.4155 8.22228C10.3994 8.32559 10.3871 8.40777 10.3789 8.46406C10.3756 8.48609 10.3736 8.50053 10.3719 8.51398C10.3763 8.5797 10.4601 8.72258 10.7472 8.86241C11.0426 9.00631 11.4963 9.11052 12.0001 9.11052C12.5039 9.11052 12.9575 9.00631 13.2529 8.86241C13.5401 8.72253 13.6238 8.57975 13.6284 8.51398L13.6213 8.46406C13.6131 8.40781 13.6007 8.32559 13.5847 8.22228C13.5525 8.01556 13.5053 7.72353 13.4461 7.37525C13.3275 6.67859 13.1601 5.75666 12.9661 4.84006C12.7722 3.92347 12.5503 3.01006 12.3298 2.34523C12.2197 2.0128 12.1074 1.7412 12.0148 1.57892C12.0083 1.56744 12.0064 1.56814 12.0001 1.55792L12 1.55802ZM4.08124 2.45145C2.21595 3.8503 1.02626 5.73036 1.02626 7.80852C1.02626 9.25855 1.58501 10.6157 2.55654 11.7786L3.82826 8.11156C3.29693 7.2935 3.00007 6.38234 3.00007 5.42169C3.00007 4.34431 3.41974 3.34363 4.0812 2.45155L4.08124 2.45145ZM19.9195 2.4522C20.5802 3.34433 21.0006 4.34502 21.0006 5.42239C21.0006 6.383 20.7038 7.29402 20.1726 8.11194L21.444 11.7779C22.4152 10.6152 22.9737 9.25827 22.9737 7.80847C22.9737 5.73036 21.7841 3.8502 19.9195 2.45216L19.9195 2.4522ZM10.0435 6.00556C8.34687 6.43569 7.14565 7.50041 6.26707 9.29778C5.10026 11.685 4.58027 15.4106 4.56532 20.5311C6.61507 21.6832 8.8467 22.3236 11.1274 22.442C11.1114 20.6523 10.8027 17.8226 10.5787 15.9878C7.44265 15.7096 6.08632 14.6053 6.08632 14.6053C6.08632 14.6053 6.26337 13.3077 6.38613 12.7333C8.1867 13.3397 10.0825 13.6455 12.0006 13.6342C13.918 13.6447 15.8138 13.3397 17.6144 12.7333C17.7371 13.3077 17.9143 14.6053 17.9143 14.6053C17.9143 14.6053 16.6033 15.7303 13.4201 15.995C13.1962 17.8301 12.8884 20.6549 12.8723 22.442C15.153 22.3236 17.3846 21.6832 19.4344 20.5311C19.4194 15.4105 18.8995 11.685 17.7327 9.29778C16.8543 7.50036 15.6529 6.43569 13.9564 6.00556C14.039 6.44525 14.112 6.8562 14.1728 7.2125C14.1889 7.22117 14.2054 7.22938 14.2213 7.23828C14.8096 7.56547 15.2371 8.05906 15.3249 8.66117L15.6066 10.5969L15.5684 10.6905C15.3207 11.299 14.6899 11.6426 14.0166 11.893C13.3434 12.1435 12.5986 12.2789 12.0035 12.2847H11.9961C11.4012 12.2786 10.6565 12.1431 9.98327 11.8928C9.30991 11.6424 8.67921 11.2991 8.43148 10.6906L8.39332 10.5969L8.67495 8.66122C8.7626 8.05916 9.1901 7.56556 9.77838 7.23833C9.79432 7.22942 9.81082 7.22122 9.82699 7.21255C9.88779 6.8563 9.96077 6.44534 10.0434 6.00566L10.0435 6.00556ZM4.77424 7.65453L2.83174 13.2556L4.2237 13.8983C4.5087 11.9244 4.95504 10.2881 5.59863 8.97125C5.75473 8.6517 5.92395 8.35203 6.10554 8.07125L4.77424 7.65453ZM19.2264 7.65453L17.8944 8.07148C18.076 8.35208 18.2451 8.6518 18.4012 8.9712C19.0449 10.2881 19.4914 11.9244 19.7763 13.8985L21.169 13.2555L19.2265 7.65444L19.2264 7.65453ZM9.47327 8.55205C9.44271 8.62348 9.42185 8.69581 9.41126 8.76838L9.16343 10.4714C9.30162 10.7015 9.70577 10.9957 10.2425 11.1953C10.8245 11.4117 11.5177 11.5349 12.0001 11.5404C12.4823 11.5352 13.1753 11.4121 13.7573 11.1956C14.294 10.9959 14.6982 10.7015 14.8364 10.4714L14.5886 8.76833C14.578 8.69577 14.5572 8.62348 14.5266 8.552C14.4753 8.56972 14.4224 8.58702 14.3686 8.60413C14.3227 9.02919 13.9781 9.33669 13.5786 9.53131C13.1492 9.74047 12.6017 9.85456 11.9999 9.85456C11.3981 9.85456 10.8506 9.74047 10.4213 9.53131C10.0218 9.33669 9.67723 9.02919 9.63129 8.60413C9.57738 8.58697 9.52456 8.56967 9.47323 8.55195L9.47327 8.55205Z" fill="#F6D6CB"></path>
+                </svg>
+                Area Personal</a>
+        </li>
+    </ul>
+    <a class="start-game">
+        <svg class="swords" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+            fill="none">
+            <g class="left">
+                <path
+                    d="M16.4272 0.155073C15.6548 0.239333 14.8298 0.327104 14.5945 0.351679L14.5621 0.354847C14.3058 0.379853 14.069 0.502778 13.901 0.698019L9.56352 5.7408C7.03221 8.68287 4.95029 11.0913 4.93625 11.0913C4.92221 11.0913 4.65538 10.835 4.34292 10.5225L4.12174 10.3014C3.92784 10.1075 3.61347 10.1075 3.41957 10.3014C3.22648 10.4945 3.06849 10.6665 3.06849 10.6875C3.06849 10.7332 7.2534 14.9181 7.29904 14.9181C7.3201 14.9181 7.49213 14.7601 7.68523 14.567C7.87912 14.3731 7.87912 14.0587 7.68523 13.8648L6.96377 13.1434C6.91654 13.0962 6.91733 13.0194 6.96551 12.9731C7.01466 12.9275 7.52724 12.4816 8.11004 11.9795C15.3178 5.78995 17.6033 3.80984 17.6033 3.76069C17.6033 3.69399 17.9403 0.418385 17.9755 0.162095C17.9965 0.00410765 17.993 -0.00291398 17.9123 0.000596841C17.8701 0.00410767 17.1996 0.0743242 16.4272 0.155073Z"
+                    fill="white" fill-opacity="0.75" />
+                <path
+                    d="M0.14759 16.2416C0.0557101 16.3335 0.0172524 16.466 0.0456712 16.5928C0.115888 16.9158 0.287918 17.2282 0.523143 17.4634C0.76188 17.6987 1.01466 17.8391 1.36223 17.9269C1.51065 17.9618 1.66657 17.9174 1.77439 17.8096L4.50299 15.081C4.89351 14.6905 4.89351 14.0573 4.50299 13.6668L4.31978 13.4836C3.92925 13.0931 3.29609 13.0931 2.90556 13.4836L0.14759 16.2416Z"
+                    fill="white" fill-opacity="0.75" />
+            </g>
+            <g class="right">
+                <path
+                    d="M1.55921 0.155073C2.33159 0.239333 3.15663 0.327104 3.39186 0.351679L3.42432 0.354847C3.68063 0.379853 3.91742 0.502778 4.08535 0.698019L8.42287 5.7408C10.9542 8.68287 13.0361 11.0913 13.0501 11.0913C13.0642 11.0913 13.331 10.835 13.6435 10.5225L13.8647 10.3014C14.0585 10.1075 14.3729 10.1075 14.5668 10.3014C14.7599 10.4945 14.9179 10.6665 14.9179 10.6875C14.9179 10.7332 10.733 14.9181 10.6874 14.9181C10.6663 14.9181 10.4943 14.7601 10.3012 14.567C10.1073 14.3731 10.1073 14.0587 10.3012 13.8648L11.0226 13.1434C11.0698 13.0962 11.0691 13.0194 11.0209 12.9731C10.9717 12.9275 10.4591 12.4816 9.87635 11.9795C2.66863 5.78995 0.383081 3.80984 0.383081 3.76069C0.383081 3.69399 0.0460415 0.418385 0.0109329 0.162095C-0.0101318 0.00410765 -0.00662041 -0.00291398 0.0741291 0.000596841C0.116259 0.00410767 0.786827 0.0743242 1.55921 0.155073Z"
+                    fill="white" fill-opacity="0.75" />
+                <path
+                    d="M17.8388 16.2416C17.9307 16.3335 17.9691 16.466 17.9407 16.5928C17.8705 16.9158 17.6985 17.2282 17.4632 17.4634C17.2245 17.6987 16.9717 17.8391 16.6242 17.9269C16.4757 17.9618 16.3198 17.9174 16.212 17.8096L13.4834 15.081C13.0929 14.6905 13.0929 14.0573 13.4834 13.6668L13.6666 13.4836C14.0571 13.0931 14.6903 13.0931 15.0808 13.4836L17.8388 16.2416Z"
+                    fill="white" fill-opacity="0.75" />
+            </g>
+        </svg>Cerrar Sesion</a>
+</div>
+
+    <div class="container content">
+	<h1 class="inner-title">Adquiere Mejoras para el juego</h1>
+    <div class="credit-card-form">
+        <h2>Ingrese su Información de Tarjeta de Crédito</h2>
+        <div class="payment-icons">
+            <!-- Aquí puedes insertar los íconos SVG -->
+            <img src="assets/new/images/Pay/mastercard-id-check-svgrepo-com.svg" alt="Mastercard">
+            <img src="assets/new/images/Pay/paypal-svgrepo-com.svg" alt="PayPal">
+            <img src="assets/new/images/Pay/visa-classic-svgrepo-com.svg" alt="Visa">
+            <img src="assets/new/images/Pay/apple-pay-svgrepo-com.svg">
+            <img src="assets/new/images/Pay/bitcoin-svgrepo-com.svg">
+            <!-- Agrega más íconos si lo deseas -->
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="cardNumber">Número de Tarjeta</label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" required>
+            </div>
+            <div class="form-group">
+                <label for="expiryDate">Fecha de Vencimiento</label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/AA" required>
+            </div>
+            <div class="form-group">
+                <label for="cardName">Nombre en la Tarjeta</label>
+                <input type="text" id="cardName" name="cardName" placeholder="Nombre Completo" required>
+            </div>
+            <div class="form-group">
+                <label for="securityCode">Código de Seguridad</label>
+                <input type="text" id="securityCode" name="securityCode" placeholder="CVC" required>
+            </div>
+        </form>
+    </div>
+    <br>
+	<table class="table cart-table">
+        <thead>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <input type="text" id="search" placeholder="Buscar ítems..." class="form-control" style="margin-bottom: 10px;">
+            <tr>
+                <td><img src="content/news/2017/03/1/p_image.png" alt="Item 1"></td>
+                <td>Espada Épica</td>
+                <td><input type="number" value="1" min="1" class="form-control quantity" data-price="10.00"td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td><img src="content/news/2017/06/11/p_image.png" alt="Item 2"></td>
+                <td>Armadura Legendaria</td>
+                <td><input type="number" value="1" min="1" class="form-control quantity" data-price="50.00"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td><img src="content/news/2017/07/12/p_image.png" alt="Item 3"></td>
+                <td>Poción de Salud</td>
+                <td><input type="number" value="1" min="1" class="form-control quantity" data-price="5.00"></td>
+                <td>$5.00</td>
+            </tr>
+            <tr>
+                <td><img src="content/news/2017/08/20/p_image.png" alt="Item 1"></td>
+                <td>Botas de Mago</td>
+                <td><input type="number" value="1" min="1" class="form-control quantity" data-price="12.00"></td>
+                <td>$12.00</td>
+            </tr>
+            <tr>
+                <td><img src="content/news/2017/09/34/p_image.png" alt="Item 2"></td>
+                <td>Armadura Warmog</td>
+                <td><input type="number" value="1" min="1" class="form-control quantity" data-price="60.00"></td>
+                <td>$60.00</td>
+            </tr>
+            <tr>
+                <td><img src="content/news/2017/09/35/p_image.png" alt="Item 3"></td>
+                <td>Poción de Tenacidad</td>
+                <td><input type="number" value="1" min="1" class="form-control quantity" data-price="8.00"></td>
+                <td>$8.00</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <div class="starting-game">
+        <a href="#" class="cta-fight" id="proceed">
+            <img class="cta-fight-bg" src="assets/new/images/cta-fight.webp" alt="cta-button" width="245"
+                height="62" loading="lazy" />
+            <img class="cta-fight-bg cta-fight-bg-hover" src="assets/new/images/cta-fight-hover.webp"
+                alt="cta-button" width="245" height="62" loading="lazy" />
+            Comprar                </a>
+        
+    </div>
+    <div id="order-summary" class="mt-4"></div>
+    
+</div>
+
+<footer class="container">
+    <div class="bg-blur"></div>
+    <a href="index.html"><img class="footer-logo" src="assets/new/images/logo-small.webp" alt="Endless War
+Logo" width="140"
+            height="140" /></a>
+    <p>Sitio oficial</p>
+    <p class="name-comany">endless war</p>
+    <div class="socials">
+        <a href="https://discord.com" class="social-icon">
+            <img src="assets/new/images/svg/discord.svg" alt="discord" width="24" />
+        </a>
+        <a href="https://t.me" class="social-icon">
+            <img src="assets/new/images/svg/telegram.svg" alt="telegram" width="24" />
+        </a>
+        <a href="https://www.youtube.com/@ewteasers1396" class="social-icon">
+            <img src="assets/new/images/svg/youtube.svg" alt="youtube" width="24" />
+        </a>
+        <a href="https://vk.com" class="social-icon">
+            <img src="assets/new/images/svg/vk.svg" alt="vk" width="24" /></a>
+    </div>
+    <ul class="footer-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Sobre el juego</a></li>
+        <li><a href="news.html">Noticias</a></li>
+        <li><a href="#">Estrategias</a></li>
+        <li><a href="#">Normas</a></li>
+        <li><a href="start.html">Jugar ahora</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="files.html">Foro</a></li>
+        <li><a href="#">Gabinete</a></li>
+        <li><a href="#">Celda</a></li>
+    </ul>
+    <div class="copyright">portal de juegos EndlessWar &copy; 2017-2024</div>
+    <a href="#" class="terms-service">
+		Términos de servicio
+	</a>
+    <div class="mobile-menu">
+        <a href="#" class="mobile-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 1.55802C11.9937 1.56833 11.9918 1.56753 11.9853 1.57897C11.8927 1.74116 11.7805 2.0128 11.6703 2.34523C11.4499 3.01006 11.2279 3.92352 11.034 4.84006C10.8401 5.75661 10.6727 6.67859 10.5541 7.37525C10.4948 7.72353 10.4477 8.01556 10.4155 8.22228C10.3994 8.32559 10.3871 8.40777 10.3789 8.46406C10.3756 8.48609 10.3736 8.50053 10.3719 8.51398C10.3763 8.5797 10.4601 8.72258 10.7472 8.86241C11.0426 9.00631 11.4963 9.11052 12.0001 9.11052C12.5039 9.11052 12.9575 9.00631 13.2529 8.86241C13.5401 8.72253 13.6238 8.57975 13.6284 8.51398L13.6213 8.46406C13.6131 8.40781 13.6007 8.32559 13.5847 8.22228C13.5525 8.01556 13.5053 7.72353 13.4461 7.37525C13.3275 6.67859 13.1601 5.75666 12.9661 4.84006C12.7722 3.92347 12.5503 3.01006 12.3298 2.34523C12.2197 2.0128 12.1074 1.7412 12.0148 1.57892C12.0083 1.56744 12.0064 1.56814 12.0001 1.55792L12 1.55802ZM4.08124 2.45145C2.21595 3.8503 1.02626 5.73036 1.02626 7.80852C1.02626 9.25855 1.58501 10.6157 2.55654 11.7786L3.82826 8.11156C3.29693 7.2935 3.00007 6.38234 3.00007 5.42169C3.00007 4.34431 3.41974 3.34363 4.0812 2.45155L4.08124 2.45145ZM19.9195 2.4522C20.5802 3.34433 21.0006 4.34502 21.0006 5.42239C21.0006 6.383 20.7038 7.29402 20.1726 8.11194L21.444 11.7779C22.4152 10.6152 22.9737 9.25827 22.9737 7.80847C22.9737 5.73036 21.7841 3.8502 19.9195 2.45216L19.9195 2.4522ZM10.0435 6.00556C8.34687 6.43569 7.14565 7.50041 6.26707 9.29778C5.10026 11.685 4.58027 15.4106 4.56532 20.5311C6.61507 21.6832 8.8467 22.3236 11.1274 22.442C11.1114 20.6523 10.8027 17.8226 10.5787 15.9878C7.44265 15.7096 6.08632 14.6053 6.08632 14.6053C6.08632 14.6053 6.26337 13.3077 6.38613 12.7333C8.1867 13.3397 10.0825 13.6455 12.0006 13.6342C13.918 13.6447 15.8138 13.3397 17.6144 12.7333C17.7371 13.3077 17.9143 14.6053 17.9143 14.6053C17.9143 14.6053 16.6033 15.7303 13.4201 15.995C13.1962 17.8301 12.8884 20.6549 12.8723 22.442C15.153 22.3236 17.3846 21.6832 19.4344 20.5311C19.4194 15.4105 18.8995 11.685 17.7327 9.29778C16.8543 7.50036 15.6529 6.43569 13.9564 6.00556C14.039 6.44525 14.112 6.8562 14.1728 7.2125C14.1889 7.22117 14.2054 7.22938 14.2213 7.23828C14.8096 7.56547 15.2371 8.05906 15.3249 8.66117L15.6066 10.5969L15.5684 10.6905C15.3207 11.299 14.6899 11.6426 14.0166 11.893C13.3434 12.1435 12.5986 12.2789 12.0035 12.2847H11.9961C11.4012 12.2786 10.6565 12.1431 9.98327 11.8928C9.30991 11.6424 8.67921 11.2991 8.43148 10.6906L8.39332 10.5969L8.67495 8.66122C8.7626 8.05916 9.1901 7.56556 9.77838 7.23833C9.79432 7.22942 9.81082 7.22122 9.82699 7.21255C9.88779 6.8563 9.96077 6.44534 10.0434 6.00566L10.0435 6.00556ZM4.77424 7.65453L2.83174 13.2556L4.2237 13.8983C4.5087 11.9244 4.95504 10.2881 5.59863 8.97125C5.75473 8.6517 5.92395 8.35203 6.10554 8.07125L4.77424 7.65453ZM19.2264 7.65453L17.8944 8.07148C18.076 8.35208 18.2451 8.6518 18.4012 8.9712C19.0449 10.2881 19.4914 11.9244 19.7763 13.8985L21.169 13.2555L19.2265 7.65444L19.2264 7.65453ZM9.47327 8.55205C9.44271 8.62348 9.42185 8.69581 9.41126 8.76838L9.16343 10.4714C9.30162 10.7015 9.70577 10.9957 10.2425 11.1953C10.8245 11.4117 11.5177 11.5349 12.0001 11.5404C12.4823 11.5352 13.1753 11.4121 13.7573 11.1956C14.294 10.9959 14.6982 10.7015 14.8364 10.4714L14.5886 8.76833C14.578 8.69577 14.5572 8.62348 14.5266 8.552C14.4753 8.56972 14.4224 8.58702 14.3686 8.60413C14.3227 9.02919 13.9781 9.33669 13.5786 9.53131C13.1492 9.74047 12.6017 9.85456 11.9999 9.85456C11.3981 9.85456 10.8506 9.74047 10.4213 9.53131C10.0218 9.33669 9.67723 9.02919 9.63129 8.60413C9.57738 8.58697 9.52456 8.56967 9.47323 8.55195L9.47327 8.55205Z"
+                    fill="#F6D6CB"></path>
+            </svg>Área personal
+		</a>
+        <div class="burger">
+            <svg class="top-sword" xmlns="http://www.w3.org/2000/svg" width="25" height="7" viewBox="0 0 25 7"
+                fill="none">
+                <path
+                    d="M23.5043 2.50691C22.913 2.00278 22.2832 1.46274 22.1039 1.30846L22.0793 1.28702C21.8853 1.11769 21.6334 1.02976 21.3761 1.04153L14.7315 1.34547C10.8544 1.52228 7.67382 1.65993 7.66419 1.64972C7.65455 1.6395 7.65796 1.26954 7.67092 0.827843L7.68009 0.515179C7.68814 0.241084 7.47246 0.0123674 7.19836 0.00432495C6.9254 -0.00368431 6.69185 -0.000603052 6.67653 0.0138488C6.64332 0.0451613 6.46974 5.96096 6.50105 5.99417C6.5155 6.00949 6.74847 6.02626 7.02143 6.03427C7.29552 6.04232 7.52424 5.82664 7.53228 5.55254L7.56221 4.53269C7.56417 4.46593 7.62059 4.4138 7.6873 4.41712C7.75422 4.42157 8.43028 4.48859 9.19538 4.56817C18.6435 5.56564 21.6522 5.86999 21.6879 5.83627C21.7364 5.79051 24.3508 3.78845 24.5614 3.63816C24.6908 3.5451 24.6935 3.53772 24.6355 3.48138C24.604 3.45314 24.0929 3.01345 23.5043 2.50691Z"
+                    fill="white" />
+                <path
+                    d="M0.631822 1.69918C0.50194 1.69537 0.379145 1.75831 0.306395 1.86597C0.119575 2.13865 0.0102695 2.47818 0.000512715 2.81069C-0.00683539 3.14576 0.0644167 3.42602 0.239016 3.73911C0.315434 3.87105 0.454678 3.95406 0.607086 3.95853L4.46425 4.07171C5.0163 4.0879 5.47695 3.65351 5.49315 3.10147L5.50075 2.84248C5.51695 2.29043 5.08255 1.82978 4.53051 1.81358L0.631822 1.69918Z"
+                    fill="white" />
+            </svg>
+            <svg class="bottom-sword" xmlns="http://www.w3.org/2000/svg" width="25" height="7"
+                viewBox="0 0 25 7" fill="none">
+                <path
+                    d="M1.16746 2.54139C1.75867 2.03726 2.38855 1.49722 2.56781 1.34295L2.59239 1.3215C2.78643 1.15218 3.03831 1.06424 3.29557 1.07601L9.94022 1.37995C13.8173 1.55677 16.9979 1.69442 17.0075 1.6842C17.0172 1.67398 17.0138 1.30403 17.0008 0.862328L16.9916 0.549663C16.9836 0.275569 17.1993 0.0468521 17.4734 0.0388097C17.7463 0.0308004 17.9799 0.0338821 17.9952 0.048334C18.0284 0.0796465 18.202 5.99545 18.1707 6.02865C18.1562 6.04398 17.9232 6.06075 17.6503 6.06876C17.3762 6.0768 17.1475 5.86112 17.1394 5.58703L17.1095 4.56717C17.1075 4.50041 17.0511 4.44829 16.9844 4.45161C16.9175 4.45605 16.2414 4.52308 15.4763 4.60265C6.0282 5.60012 3.01956 5.90448 2.9838 5.87076C2.93527 5.82499 0.320904 3.82293 0.110355 3.67264C-0.0190386 3.57958 -0.0217382 3.57221 0.0362149 3.51587C0.067673 3.48763 0.578811 3.04793 1.16746 2.54139Z"
+                    fill="white" />
+                <path
+                    d="M24.0399 1.73367C24.1698 1.72986 24.2926 1.79279 24.3653 1.90045C24.5521 2.17313 24.6614 2.51266 24.6712 2.84518C24.6785 3.18025 24.6073 3.4605 24.4327 3.77359C24.3563 3.90553 24.217 3.98854 24.0646 3.99301L20.2075 4.10619C19.6554 4.12239 19.1948 3.688 19.1786 3.13595L19.171 2.87696C19.1548 2.32491 19.5892 1.86426 20.1412 1.84806L24.0399 1.73367Z"
+                    fill="white" />
+            </svg>
+        </div>
+    </div>
+</footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const quantities = document.querySelectorAll('.quantity');
+                const totalElement = document.getElementById('total');
+    
+                function updateTotal() {
+                    let total = 0;
+                    quantities.forEach(input => {
+                        const price = parseFloat(input.getAttribute('data-price'));
+                        const quantity = parseInt(input.value);
+                        total += price * quantity;
+                    });
+                    totalElement.textContent = '$' + total.toFixed(2);
+                }
+    
+                quantities.forEach(input => {
+                    input.addEventListener('input', updateTotal);
+                });
+    
+                document.getElementById('proceed').addEventListener('click', (event) => {
+                    event.preventDefault();
+                    if (validateCreditCardForm()) {
+                        let orderSummary = '<h3>Resumen de Pedido</h3>';
+                        let total = 0;
+                        let items = '';
+                        quantities.forEach(input => {
+                            const price = parseFloat(input.getAttribute('data-price'));
+                            const quantity = parseInt(input.value);
+                            const description = input.closest('tr').children[1].textContent;
+                            total += price * quantity;
+                            items += `${description} x${quantity} ($${(price * quantity).toFixed(2)})<br>`;
+                        });
+                        orderSummary += items;
+                        orderSummary += `<strong>Total: $${total.toFixed(2)}</strong><br>`;
+                        orderSummary += `<strong>Código Único: ${generateUniqueCode()}</strong>`;
+                        document.getElementById('order-summary').innerHTML = orderSummary;
+                    } else {
+                        alert('Por favor, complete toda la información de la tarjeta de crédito.');
+                    }
+                });
+                
+                function validateCreditCardForm() {
+                    const cardNumber = document.getElementById('cardNumber').value.trim();
+                    const expiryDate = document.getElementById('expiryDate').value.trim();
+                    const cardName = document.getElementById('cardName').value.trim();
+                    const securityCode = document.getElementById('securityCode').value.trim();
+    
+                    return cardNumber !== '' && expiryDate !== '' && cardName !== '' && securityCode !== '';
+                }
+    
+                function generateUniqueCode() {
+                    return 'ORDER-' + Math.random().toString(36).substr(2, 9).toUpperCase();
+                }
+            }); 
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const searchInput = document.getElementById('search');
+                const tableRows = document.querySelectorAll('tbody tr');
+        
+                searchInput.addEventListener('input', function() {
+                    const searchText = this.value.toLowerCase();
+        
+                    tableRows.forEach(row => {
+                        const itemName = row.children[1].textContent.toLowerCase();
+                        if (itemName.includes(searchText)) {
+                            row.style.display = '';
+                        } else {
+                            row.style.display = 'none';
+                        }
+                    });
+                });
+        
+                const quantities = document.querySelectorAll('.quantity');
+                const totalElement = document.getElementById('total');
+        
+                function updateTotal() {
+                    let total = 0;
+                    quantities.forEach(input => {
+                        const price = parseFloat(input.getAttribute('data-price'));
+                        const quantity = parseInt(input.value);
+                        total += price * quantity;
+                    });
+                    totalElement.textContent = '$' + total.toFixed(2);
+                }
+        
+                quantities.forEach(input => {
+                    input.addEventListener('input', updateTotal);
+                });
+        
+                document.getElementById('proceed').addEventListener('click', (event) => {
+                    event.preventDefault();
+                    if (validateCreditCardForm()) {
+                        let orderSummary = '<h3>Resumen de Pedido</h3>';
+                        let total = 0;
+                        let items = '';
+                        quantities.forEach(input => {
+                            const price = parseFloat(input.getAttribute('data-price'));
+                            const quantity = parseInt(input.value);
+                            const description = input.closest('tr').children[1].textContent;
+                            total += price * quantity;
+                            items += `${description} x${quantity} ($${(price * quantity).toFixed(2)})<br>`;
+                        });
+                        orderSummary += items;
+                        orderSummary += `<strong>Total: $${total.toFixed(2)}</strong><br>`;
+                        orderSummary += `<strong>Código Único: ${generateUniqueCode()}</strong>`;
+                        document.getElementById('order-summary').innerHTML = orderSummary;
+                    } else {
+                        alert('Por favor, complete toda la información de la tarjeta de crédito.');
+                    }
+                });
+                
+                function validateCreditCardForm() {
+                    const cardNumber = document.getElementById('cardNumber').value.trim();
+                    const expiryDate = document.getElementById('expiryDate').value.trim();
+                    const cardName = document.getElementById('cardName').value.trim();
+                    const securityCode = document.getElementById('securityCode').value.trim();
+        
+                    return cardNumber !== '' && expiryDate !== '' && cardName !== '' && securityCode !== '';
+                }
+        
+                function generateUniqueCode() {
+                    return 'ORDER-' + Math.random().toString(36).substr(2, 9).toUpperCase();
+                }
+            });
+        </script>
+        
+</body>
+</html>
